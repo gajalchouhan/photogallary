@@ -1,0 +1,29 @@
+
+  div#masonry { 
+    display: flex; 
+    flex-direction: column; 
+    flex-wrap: wrap;
+    height: 100vw;
+    max-height: 800px;
+    font-size: 0; 
+    width: 100%;
+  }
+  
+  div#masonry img {  
+    width: 300px;
+    transition: .8s opacity;
+    margin : 2px;
+    cursor: pointer;
+  } 
+  
+
+  div#masonry:hover img:active { border: 5px solid blue; } 
+  div#masonry:hover img:hover { opacity: 0.8; } 
+  
+  .img{
+      border: 2px solid blue;
+      width : 100%;
+      height : auto;
+  }
+  /* fallback for earlier versions of Firefox */
+  

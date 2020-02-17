@@ -1,0 +1,12 @@
+.loginbox{
+    width : 500px;
+    height : 500px;
+    border : 1px solid lightgray;
+    box-shadow: 1px 1px 1px 1px lightblue;
+    margin-top : 5%;
+    padding : 10px;
+}
+
+.error{
+    color : red;
+}
